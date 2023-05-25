@@ -1,0 +1,125 @@
+.about {
+    margin-top: 150px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.section__title {
+    display: flex;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333333;
+    padding-right: 30px;
+}
+.section__title-line {
+    background: #B59571;
+    height: 3px;
+    width: 60px;
+    margin-top: 1%;
+}
+.section__info {
+    display: flex;
+    max-width: 100%;
+    margin: 80px 0 0 20%;
+}
+.section__info-title {
+    padding-right: 10%;
+}
+.section__subtitle {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #333333;
+    max-width: 200px;
+}
+.section__info-text {
+    max-width: 526px;
+}
+.section-paragraph {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333;
+}
+
+.menu {
+    padding-top: 125px;
+}
+
+
+.section__btns {
+    max-width: 100%;
+    margin: 80px 0 0 20%;
+}
+.btns__wrap {
+    display: flex;
+}
+.card-menu {
+    margin-right: 104px;
+    position: relative;
+}
+.card-menu:hover .card-bg-line{
+    border: 1px solid rgba(51, 51, 51, 0.9);
+}
+.card-bg-line {
+    width: 416px;
+    height: 240px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    z-index: -1;
+    transition: ease-in-out .3s;
+}
+.card-menu-pic {
+    margin-bottom: 24px;
+    width: 336px;
+    height: 240px;
+}
+.section__title {
+    margin-left: 30px;
+}
+.section-title {
+}
+.section__title-line-2 {
+    background: #B59571;
+    height: 3px;
+    width: 60px;
+    margin-top: 3%;
+}
+
+.delivery {
+    margin-top: 125px;
+}
+
+.delivery-btns {
+    display: flex;
+    max-width: 400px;
+    margin: 35px 0 0 auto;
+    max-height: 58px;
+}
+.main-btn {
+    /* padding: 15px 30px; */
+}
+.transparent-btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333333;
+
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+
+    transition: ease-in .3s all;
+}
+
+.transparent-btn:hover {
+    border: 1px solid rgba(27, 27, 27, 0.9);
+}
